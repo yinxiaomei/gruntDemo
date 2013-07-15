@@ -176,7 +176,7 @@ module.exports = function (grunt) {
         bar: 'b<%= foo %>d',
         baz: 'a<%= bar %>e'
     };
-   
+   var hehe ='';
     grunt.registerTask('template', 'My "bar" task.', function() {
          grunt.template.process('<%= baz %>', {data: obj}); // 'abcde'
         // console.log(grunt.config.get['abcde']);
