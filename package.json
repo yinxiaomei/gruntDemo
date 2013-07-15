@@ -1,0 +1,14 @@
+{
+  "name": "gruntDemo",
+  "version": "0.1.9",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-jshint": "*",
+    "grunt-closure-compiler": "0.0.18"
+  }
+}
