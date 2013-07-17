@@ -3,4 +3,5 @@
    - "0.10"
    - "0.8"
    - "0.6"
-install: true
+before_install:
+ - sudo apt-get update -qq
