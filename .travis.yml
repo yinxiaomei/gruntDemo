@@ -3,4 +3,4 @@
    - "0.10"
    - "0.8"
    - "0.6"
-script: grunt
+script: npm test
