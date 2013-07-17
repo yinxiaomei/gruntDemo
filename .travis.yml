@@ -4,6 +4,4 @@
    - "0.8"
    - "0.6"
 notifications:
-  email:
-    - 501543619@qq.com
-    - 602338218@qq.com
+  email: "501543619@qq.com"
