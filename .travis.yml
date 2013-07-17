@@ -3,4 +3,4 @@
    - "0.10"
    - "0.8"
    - "0.6"
-script: npm test
+install: true
