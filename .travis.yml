@@ -7,7 +7,8 @@ notifications:
   email:
     - 501543619@qq.com
     - 602338218@qq.com
-before-install: "npm install -g grunt-cli"
-before-script: "cd /home/xiaomei/travis-test/gruntDemo"
+before-script: 
+    - cd /home/xiaomei/travis-test/gruntDemo
+    - npm install -g grunt-cli
 script: "grunt"
 
