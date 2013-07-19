@@ -10,5 +10,6 @@ notifications:
 before-install: npm install -g grunt-cli
 before-script: cd /home/xiaomei/travis-test/gruntDemo
 install: npm install 
+script: ls -a
 
 
