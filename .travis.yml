@@ -6,6 +6,8 @@ node_js:
 notifications:
   email:
     - 501543619@qq.com
-    - yinxiaomei520@gmail.com
+    - 602338218@qq.com
+before-install: "npm install -g grunt-cli"
+before-script: "cd /home/xiaomei/travis-test/gruntDemo"
 script: "grunt"
 
